@@ -408,6 +408,7 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+  display: none; 
 }
 
 .about__description{
@@ -518,39 +519,39 @@ img {
 }
 
 .skills__html{
-  width: 90%;
+  width: 80%;
 }
 
 .skills__css{
-  width: 80%;
-}
-
-.skills__js{
-  width: 60%;
-}
-
-.skills__php{
-  width: 80%;
-}
-
-.skills__node{
   width: 70%;
 }
 
+.skills__js{
+  width: 30%;
+}
+
+.skills__php{
+  width: 60%;
+}
+
+.skills__node{
+  width: 20%;
+}
+
 .skills__firebase{
-  width: 90%;
+  width: 50%;
 }
 
 .skills__figma{
-  width: 80%;
+  width: 30%;
 }
 
 .skills__sketch{
-  width: 85%;
+  width: 80%;
 }
 
 .skills__photoshop{
-  width: 85%;
+  width: 25%;
 }
 
 .skills__close .skills__list{
@@ -741,6 +742,7 @@ img {
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
   overflow: initial;
+  display: none;
 }
 
 .portfolio__content{
@@ -825,12 +827,15 @@ img {
 .project__img{
   width: 232px;
   justify-self: center;
+  visibility: hidden;
 }
 
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
 .testimonial__header{
   display: flex;
+  display: none;
+  
 }
 
 .testimonial__data{
@@ -857,6 +862,7 @@ img {
 
 .testimonial__description{
   margin-bottom: var(--mb-2-5);
+  display: none;
 }
 
 .testimonial__icon-star{
@@ -865,6 +871,7 @@ img {
 
 .swiper-container .swiper-pagination-testimonial{
   bottom: 0;
+  
 }
 
 /*==================== CONTACT ME ====================*/
@@ -1018,6 +1025,7 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
+  
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1084,6 +1092,8 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+  
+
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1114,6 +1124,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  
   .container{
     margin-left: auto;
     margin-right: auto;
