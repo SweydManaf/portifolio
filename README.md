@@ -27,7 +27,7 @@ Site portfólio para saber mais informações sobre mim, como também meus proje
 <br>
 
 <p align="center">
-  <img alt="site portfólio" src=".github/preview.jpg" width="100%">
+  <img alt="site portfólio" src=".github/preview.png" width="40%">
 </p>
 
 ## 🚀 Tecnologias
