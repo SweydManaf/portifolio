@@ -49,7 +49,7 @@ Site portfólio para saber mais informações sobre mim, formações, hard-skill
 - Desenvolvido primeiro com a metodologia Mobile First, depois para desktop.
 - Compatível com todos os dispositivos móveis e com uma interface de usuário bonita e agradável.
 
-- [Acesse o projeto finalizado, online](https://sweydmanaf.github.io/portifolio)
+<p align="center"><a href="https://sweydmanaf.github.io/portifolio">🌐 Acesse o projeto finalizado, online</a></p>
 
 ## 🔖 Layout
 
