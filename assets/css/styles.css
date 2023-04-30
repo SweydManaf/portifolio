@@ -536,15 +536,11 @@ img {
 }
 
 .skills__node{
-  width: 20%;
-}
-
-.skills__firebase{
-  width: 50%;
+  width: 10%;
 }
 
 .skills__figma{
-  width: 30%;
+  width: 20%;
 }
 
 .skills__sketch{
