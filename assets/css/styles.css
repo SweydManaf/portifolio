@@ -1,6 +1,9 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+@font-face {
+  font-family: logoFont;
+  src: url(../fonts/-OCFormatStencil-Bd.ttf);
+}
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -25,6 +28,7 @@
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
+    --logo-font: logoFont;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
@@ -190,6 +194,7 @@ img {
 
 .nav__logo,
 .nav__toggle{
+  font-family: var(--logo-font);
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
