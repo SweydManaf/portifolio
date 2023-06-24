@@ -308,8 +308,8 @@ img {
 }
 
 .home__blob-img{
-  width: 270px;
-  transform: translate(-25%, -12%);
+  width: 250px;
+  transform: translate(-15%, -30%);
 }
 
 .home__data{
@@ -533,10 +533,10 @@ img {
 }
 
 .skills__js{
-  width: 30%;
+  width: 60%;
 }
 
-.skills__php{
+.skills__python{
   width: 60%;
 }
 
@@ -544,15 +544,19 @@ img {
   width: 10%;
 }
 
+.skills__mysql{
+  width: 50%;
+}
+
 .skills__figma{
   width: 20%;
 }
 
-.skills__sketch{
+.skills__canva{
   width: 80%;
 }
 
-.skills__photoshop{
+.skills__gimp{
   width: 25%;
 }
 
